@@ -53,7 +53,7 @@ VALUES
 insert into employees
 values (6, 'Loser', 'Boy', 'loser.boy@example.com', '0544695645', '2021-12-05', 1, 20, 4);
 
-select *
+explain select *
 from Employees
 where department_id = 90; 
 
